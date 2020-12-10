@@ -1,0 +1,41 @@
+<table>
+<thead>  
+  <th>Title</th>
+  <th>Description</th>
+  <!--property name here-->
+</thead>
+<tbody>
+  {{#events}}
+  <tr>
+    <td>{{title}}</td>
+    <td>{{description}}</td>
+    <!--property value here-->
+  </tr>
+  {{/events}}
+</tbody>
+</table>
+
+<style>
+table {
+  width: 100%;
+}
+
+table, th, td {
+  border: 1px solid lightgrey;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 1px 2px;
+}
+</style>
+
+{{!-- 
+<ul >
+  {{#events}}
+    <li>
+        <h2>{{ title }}</h2>
+        <p>{{ description }}</p>
+    </li>
+  {{/events}}
+</ul> --}}
