@@ -30,7 +30,7 @@ var request = require('request');
 const app = express();
 
 // setup team's name
-const teamName = 'gcp team';
+const teamName = 'Team X-Men';
 
 // set up handlbars as the templating engine
 app.set('view engine', 'hbs');
